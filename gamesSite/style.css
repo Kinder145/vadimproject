@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+#profile-icon,
+#search-bar,
+#donate-button {
+  padding: 10px;
+}
+
+#profile-icon {
+  height: 50px;
+  width: 50px;
+}
+
+#search-bar {
+  width: 300px;
+}
+
+#donate-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#donate-button:hover {
+  background-color: #45a049;
+}
+
+.kategory,
+.games {
+  overflow: hidden;
+}
+
+.kategory {
+  width: 20%;
+}
+
+.games {
+  width: 80%;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  background-color: lightgray;
+  border-radius: 20px;
+  margin: 10px;
+}
+#games {
+  background-color: aliceblue;
+  border-radius: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px 5px;
+  height: 170px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links li {
+  margin-right: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+.info-container {
+  display: inline-block;
+  border: 1px solid #ddd; /* граница контейнера */
+  padding: 15px; /* отступ внутри контейнера */
+  margin: 15px; /* отступ вокруг контейнера */
+  max-width: 300px; /* максимальная ширина контейнера */
+}
+
+.info-image {
+  width: 100%; /* ширина изображения равна ширине контейнера */
+  height: auto; /* автоматическая высота для сохранения пропорций */
+  border-radius: 10px; /* скругление углов изображения */
+}
+
+.info-title {
+  margin: 10px 0; /* отступ сверху и снизу заголовка */
+  font-size: 18px; /* размер шрифта заголовка */
+}
+
+.info-description {
+  font-size: 14px; /* размер шрифта описания */
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(ll.25rem, 100%), lfr));
+  grid-gap: lrem;
+}
